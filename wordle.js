@@ -47,7 +47,7 @@ submitButton.addEventListener("click", function (event) {
     if (correctLetters === word.length) {
       outputElement.textContent = "Ha ganado! La palabra era: " + word + ".";
     } else {
-      outputElement.textContent = "Casi aciertas. Tienes " + (attemptsLeft - 1) + " intentos.";
+      outputElement.textContent = "Casi aciertas. Tienes " + (attemptsLeft - 1) + " intentos más.";
       
       if (attemptsLeft === 1) {
         setTimeout(() => {
