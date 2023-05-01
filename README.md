@@ -4,7 +4,7 @@ Realizado por: Chiara Boccaletti
 
 En este segundo proyecto de Ironhack teníamos la elección entre dos proyectos:
 
-### Un proyecto de manipulación DOM. 
+### Un proyecto de manipulación DOM
 Si elige este enfoque, la página web debe:
 
 1. Tener un mínimo de 2 páginas HTML.
@@ -15,7 +15,7 @@ Si elige este enfoque, la página web debe:
 6 .Es bueno tener: comportamiento responsivo.
 
 
-### Un proyecto de un juego. 
+### Un proyecto de un juego
 Este enfoque también utiliza la manipulación DOM, pero incluye una implementación lógica más pesada y más programación. 
 Si elige este enfoque, la página web debe:
 
