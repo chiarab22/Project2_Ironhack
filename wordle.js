@@ -30,8 +30,6 @@ submitButton.addEventListener("click", function (event) {
         alert("No tienes más intentos. La palabra secreta era: " + word);
       }, 1000);
     }
-    
-    attemptsLeft--;
   } else {
 
     let correctLetters = 0;
