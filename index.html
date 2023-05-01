@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Instrucciones - Wordle</title>
+	<link rel="stylesheet" href="style-instructions.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Instrucciones</h1>
+		<p>Wordle es un juego de palabras en el que tienes que adivinar una palabra secreta de 5 o más letras en 6 intentos.</p>
+		<p>Para jugar, simplemente introduce una palabra de 5 o más letras en la caja de texto y haz clic en el botón "Enviar". El juego te indicará 
+			cuántas letras coinciden con la palabra secreta y en qué posición se encuentran. 
+			Utiliza esta información para ir descubriendo la palabra secreta en cada intento.
+		</p>
+		<p>Tienes 6 intentos para intentar adivinar la palabra secreta. Al acabar los intentos se te mostrará un mensaje de alerta.</p>
+		<p>¡Suerte!</p>
+		<button id="play-btn">Jugar</button>
+	</div>
+
+	<script>
+		const playBtn = document.getElementById("play-btn");
+
+		playBtn.addEventListener("click", () => {
+		  window.location.href = "game.html";
+		});
+	</script>
+</body>
+</html>
