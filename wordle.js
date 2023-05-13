@@ -6,7 +6,8 @@ const word = words[Math.floor(Math.random() * words.length)];
 // Creamos un array de la misma longitud que la palabra elegida, pero con guiones bajos
 const wordArray = Array(word.length).fill("_");
 
-let attemptsLeft = 6;
+//Añadimos función de customización de intentos
+let attemptsLeft = parseInt(prompt("Ingresa el número de intentos que deseas tener:"));
 
 //Recogemos los elementos del DOM
 const wordElement = document.getElementById("word");
